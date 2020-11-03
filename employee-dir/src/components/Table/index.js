@@ -3,7 +3,7 @@ import React from "react";
 
 function Table(props){
     return(
-        <table className="table table-">
+        <table className="table table-striped">
             <thead className="thead-dark">
                 <tr>
                     <th scope="col">Image</th>
