@@ -4,7 +4,7 @@ import "./style.css";
 function SearchResults(props) {
   return (
     <table className="table table-striped">
-        <thead>
+        <thead className="thead-dark">
             <tr>
               <th scope="col">Image</th>
               <th scope="col">First Name</th>
