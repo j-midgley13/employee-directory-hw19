@@ -16,8 +16,8 @@ function Table(props){
                 </tr>
             </thead>
             <tbody>
-                {props.employees.map( (employee, index) => (
-                    <tr>
+                {props.employees.map( (employee) => (
+                    <tr key={employee.email}>
                         <td><img src={employee.picture.thumbnail} alt="employee"></img></td>
                         <td>{employee.name.first}</td>
                         <td>{employee.name.last}</td>
