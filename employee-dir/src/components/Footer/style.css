@@ -1,7 +1,9 @@
 .footer {
   min-height: 100px;
-  background: #E5E5E5;
+  background: #C2A593;
   position: relative;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .footer span {
@@ -10,5 +12,5 @@
   left: 0;
   right: 0;
   padding: 3px;
-  background: #B8B8B8;
+  background: #754E36;
 }
