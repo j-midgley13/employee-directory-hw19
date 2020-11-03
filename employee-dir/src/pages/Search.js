@@ -43,7 +43,7 @@ class Search extends Component {
       })
       .catch(err => this.setState({ error: err.results }));
   };
-  
+
   render() {
     
       let table;
@@ -56,7 +56,7 @@ class Search extends Component {
       return (
 <div>
         <Container style={{ minHeight: "80%" }}>
-          <h1 className="text-center">Search By Employee!</h1>
+          <h3 className="text-center">Search By Employee!</h3>
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
