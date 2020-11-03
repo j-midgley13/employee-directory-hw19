@@ -56,7 +56,7 @@ class Search extends Component {
       return (
 <div>
         <Container style={{ minHeight: "80%" }}>
-          <h3 className="text-center">Search By Employee!</h3>
+          <h3 className="text-center" style={{fontFamily: 'Permanent Marker, cursive'}}>Search By Employee!</h3>
           <SearchForm
             handleFormSubmit={this.handleFormSubmit}
             handleInputChange={this.handleInputChange}
