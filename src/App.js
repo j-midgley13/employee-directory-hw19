@@ -12,7 +12,7 @@ function App() {
         <Header />
         <Wrapper>
           <Route exact path="/" component={Search} />
-          <Route exact path="/search" component={Search} />
+          {/* <Route exact path="/search" component={Search} /> */}
         </Wrapper>
         <Footer />
       </div>
