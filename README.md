@@ -2,7 +2,7 @@
 
 ## Introduction  
 
-This assignment was given to create a website that can be used to track a budget whether the site is online or offline. This process uses a service worker to handle those requests and put them into the database once they are back online.
+This assignment was given to create a react website that can be used to sort through a list of employees by name. This was our introduction into react.js; so it is basic in its design.
 
 ## Table of Contents:  
 * [Objectives](#Objectives)
@@ -15,43 +15,36 @@ This assignment was given to create a website that can be used to track a budget
 ## Objectives  
 
 ```md
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+The user will be able to view a list of employees and then be able to search by name.  
 
-Offline Functionality:
+* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.  
 
-  * Enter deposits offline
-
-  * Enter expenses offline
-
-When brought back online:
-
-  * Offline entries should be added to tracker.
+* As a user, I want to be able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
 ```
 
 ## Process  
 
-* I first copied the homework into my own repository for the assignment.  
-* I then completed npm i installation into my repository.  
-* Much of the code was given in the assignment, I was responsible for adding the service-worker.js, manifest.json, and db.js.  
-* I also made changes to index.js, index.html, api.js, and package.json in order to get service worker to work.  
-* I first started with the service-worker.js to add eventListeners to cache necessary pages and data.  
-* I then updated api.js to have correct routing.  
-* I then added the code necessary to connect to Heroku for app deployment.  
+* I first copied the files into my own repository for the assignment.  
+* I then built out a react component to run from.  
+* I then copied mini-project as it had similar file structure to what we wanted.  
+* I began altering components to display what I needed to display on the screen.  
+* I updated an employee list using an api that generates random employees.  
+* I then connected the app to Heroku for deployment.  
 
 ## Challenges  
 
-This assignment was tough in its own way. It combined retrofitting given code to fit into a service worker to complete the task. I had plenty of help from fellow students and of course google, but I leaned heavily on previous week's mini-project to get me through. IndexedDB was new to me as we didn't cover that in class. Heroku deployment was another issue as it worked locally but not on heroku-deployed site.    
+This assignment was pretty tough for me. React has a different file structure than all the other structures we have worked with. It took much trial and error to get used to the state and components list. I had help from fellow students to get me through getting the list to propogate on the page. I struggled with deploying to github pages. I eventually went with Heroku as it worked better to render my page.  
 
 ## Summary  
 
-This assignment was fun and challenging! It was really neat to see how websites can function offline. It keeps the user engaged at all times, not just times they have internet access. That is big for many businesses. I liked the challenge of working with given code to fit a task into the project.  
+This assignment was very challenging! I had to reframe my mind over and over to get used to the file structure and how things work, but it is slowly getting there. I need to keep practicing because I can see how useful it can be in the web development world. It has many uses and I am positive I can get the knowledge and comfortability very high!  
 
 ## Sites  
 
-* [Link to repository on GitHub](https://github.com/j-midgley13/budget-tracker-PWA-hw18)  
+* [Link to repository on GitHub](https://github.com/j-midgley13/employee-directory-hw19)  
 
-* [Link to deployed Heroku Website](https://immense-taiga-97479.herokuapp.com/)  
+* [Link to deployed Heroku Website](https://evening-shore-66163.herokuapp.com/)  
 
 ## Screenshots  
 
-![screenshot](./extras/offline-budget.png)  
+![screenshot](./public/emp-search.png)  
